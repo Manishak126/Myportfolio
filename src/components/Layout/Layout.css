@@ -1,0 +1,29 @@
+.sidebar-section{
+    display: flex;
+    background-color: black;
+}
+
+.sidebar{
+    /* display: flex; */
+    height: 100vh;
+    background-color: black;
+    width: 90px; 
+    position: fixed; 
+}
+
+.sidebar-toggle{
+    width: 200px;
+}
+.sidebar-toggle-icons{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    cursor: pointer;
+}
+
+.sidebar-toggle-icons p svg{/*we can directly target the react icon using svg*/
+    background-color: #f29f67;
+    color: white;
+    margin-top: 30px;
+
+}
