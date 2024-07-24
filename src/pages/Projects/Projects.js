@@ -1,20 +1,28 @@
 import React from 'react'
 import './Projects.css'
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
+import RubberBand from "react-reveal/RubberBand";
 
 const Projects = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <>
       <div className="container projects" id="project">
-        <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
-          Projects
-        </h2>
-        <hr />
-        <p className="pb-3 text-center">
-          👉Here are my top 3 recent project with live links and source code
-        </p>
-
+        <RubberBand>
+          <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
+            Projects
+          </h2>
+          <hr />
+          <p className="pb-3 text-center">
+            👉Here are my top 3 recent project with live links and source code
+          </p>
+        </RubberBand>
         <div className="row" id="ads">
-          <div className="col-md-4">
+          <div className="col-md-4" data-aos="flip-left">
             <div className="card rounded">
               <div className="card-image">
                 <span className="card-notify-badge">Full Stack</span>
@@ -44,7 +52,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="col-md-4">
+          <div className="col-md-4" data-aos="flip-left">
             <div className="card rounded">
               <div className="card-image">
                 <span className="card-notify-badge">Frontend</span>
@@ -71,7 +79,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="col-md-4">
+          <div className="col-md-4" data-aos="flip-left">
             <div className="card rounded">
               <div className="card-image">
                 <span className="card-notify-badge">Full Stack</span>

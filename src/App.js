@@ -8,23 +8,29 @@ import Education from './pages/Education/Education';
 import WorkExp from './pages/WorkExp/WorkExp';
 import Contact from './pages/Contact/Contact';
 import ScrollToTop from "react-scroll-to-top";
-
+import { useTheme } from './context/ThemeContext';
+import Tada from 'react-reveal/Tada'
 
 function App() {
+  const [theme]= useTheme()
   return (
     <div>
-      <Layout />
-      <div className="container">
-        <About />
-        <Education />
-        <Techstack />
-        <Projects />
-        {/* <WorkExp/> */}
-        <Contact />
-      </div>
+      <div id={theme}>
+        <Layout />
+        <div className="container">
+          <About />
+          <Education />
+          <Techstack />
+          <Projects />
+          {/* <WorkExp/> */}
+          <Contact />
+        </div>
 
-      <div className="footer mb-3 ms-3">
-        <h4 className="text-center">MY Portfolio 😊 &copy; 2024</h4>
+        <div className="footer pb-3 ms-3">
+          <Tada>
+            <h4 className="text-center">MY Portfolio 😊 &copy; 2024</h4>
+          </Tada>
+        </div>
       </div>
       <ScrollToTop
         smooth
