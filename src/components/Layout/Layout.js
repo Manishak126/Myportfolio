@@ -5,18 +5,19 @@ import './Layout.css'
 import Menus from '../Menus/Menus';
 import MobileNav from '../MobileNav/MobileNav';
 
-const Layouts = () => {
+const Layout = () => {
  const [toggle,setToggle]=useState(true) 
 
  const handleToggle=()=>{
   setToggle(!toggle);
+  // console.log('Toggle State:', toggle);
  }
   return (
     <>
     <MobileNav/>
     <div className="sidebar-section">
         <div className={toggle?"sidebar sidebar-toggle":"sidebar"}>
-            <div className="sidebar-toggle-icons">
+            <div className="sidebar-toggle-icons" >
             {/* <MdOutlineKeyboardDoubleArrowRight size={30}/> */}
             <p onClick={handleToggle}>
               {toggle?(<MdOutlineKeyboardDoubleArrowLeft size={30}/>):(<MdOutlineKeyboardDoubleArrowRight size={30}/>)}
@@ -36,5 +37,5 @@ const Layouts = () => {
   )
 }
 
-export default Layouts
+export default Layout
 

@@ -28,7 +28,7 @@ const MobileNav = () => {
     }
   return (
     <>
-      <div className='mobile-nav'>
+      <div className='"mobile-nav' id="mob">
         <div className="mobile-nav-header">
           {open ? (
             <RiMenuUnfold4Line2

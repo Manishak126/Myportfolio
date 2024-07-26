@@ -1,10 +1,10 @@
+/* we can directly target the react icon using svg */
 .sidebar-section{
     display: flex;
     background-color: black;
 }
 
 .sidebar{
-    /* display: flex; */
     height: 100vh;
     background-color: black;
     width: 90px; 
@@ -25,7 +25,7 @@
     cursor: pointer;
 }
 
-.sidebar-toggle-icons p svg{/*we can directly target the react icon using svg*/
+.sidebar-toggle-icons p svg{
     background-color: #f29f67;
     color: white;
     margin-top: 30px;
@@ -36,5 +36,4 @@
         display: none;
     }
 }
-
 
