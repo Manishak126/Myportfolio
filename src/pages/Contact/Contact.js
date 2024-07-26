@@ -32,13 +32,28 @@ const Contact = () => {
                     <div className="row">
                       <h6>
                         Contact With
-                        <FaLinkedin color="blue" className="ms-2" size={30} />
-                        <FaGithub color="black" className="ms-2" size={30} />
-                        <FaWhatsapp
-                          color="	#075E54"
-                          className="ms-2"
-                          size={30}
-                        />
+                        <a
+                          href="https://www.linkedin.com/in/manisha-kumari-a19a2022a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                          target="_blank"
+                        >
+                          <FaLinkedin color="blue" className="ms-2" size={30} />
+                        </a>
+                        <a
+                          href="https://github.com/Manishak126"
+                          target="_blank"
+                        >
+                          <FaGithub color="black" className="ms-2" size={30} />
+                        </a>
+                        <a
+                          href="https://api.whatsapp.com/send?phone=7667113282"
+                          target="_blank"
+                        >
+                          <FaWhatsapp
+                            color="	#075E54"
+                            className="ms-2"
+                            size={30}
+                          />
+                        </a>
                       </h6>
                     </div>
 
