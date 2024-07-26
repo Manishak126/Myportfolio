@@ -23,3 +23,46 @@
 .education .vertical-timeline-element-subtitle{
     color: #1e1e2c;
 }
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .education {
+        padding: 30px 10px;
+        margin: 30px 10px;
+    }
+
+    .education hr{
+        width: 280px;
+    }
+
+    .education h2 {
+        font-size: 1.5em;
+    }
+
+    .education .vertical-timeline-element-title,
+    .education .vertical-timeline-element-subtitle {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .education {
+        padding: 20px 5px;
+        margin: 20px 5px;
+    }
+
+    .education hr {
+        width: 250px;
+    }
+
+    .education h2 {
+        font-size: 1.2em;
+    }
+
+    .education .vertical-timeline-element-title,
+    .education .vertical-timeline-element-subtitle {
+        font-size: 0.9em;
+    }
+}
+
+/* Responsive design - Lecture */

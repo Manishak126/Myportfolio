@@ -3,6 +3,7 @@ import Home from '../../pages/Home/Home'
 import { MdOutlineKeyboardDoubleArrowRight,MdOutlineKeyboardDoubleArrowLeft } from "react-icons/md";
 import './Layout.css'
 import Menus from '../Menus/Menus';
+import MobileNav from '../MobileNav/MobileNav';
 
 const Layouts = () => {
  const [toggle,setToggle]=useState(true) 
@@ -12,6 +13,7 @@ const Layouts = () => {
  }
   return (
     <>
+    <MobileNav/>
     <div className="sidebar-section">
         <div className={toggle?"sidebar sidebar-toggle":"sidebar"}>
             <div className="sidebar-toggle-icons">
@@ -24,6 +26,7 @@ const Layouts = () => {
         </div>
 
         <div className="container">
+        {/* <div className={toggle?"container sidebar-toggle":"container"}> */}
             <Home/>
         </div>
     </div>

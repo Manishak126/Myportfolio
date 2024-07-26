@@ -40,7 +40,14 @@ const Home = () => {
           </div>
 
           <div className="home-buttons" data-aos="fade-up">
-            <button className="btn btn-hire">Hire Me</button>
+            <a 
+            href="https://api.whatsapp.com/send?phone=7667113282"
+            rel='noreferrer' 
+            target='_blank'
+            className="btn btn-hire">
+              Hire Me
+            </a>
+            
             <a
               className="btn btn-cv"
               href={Resume}

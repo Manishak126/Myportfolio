@@ -37,3 +37,55 @@
     padding-left: 10px;
     text-decoration:none;
 }
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .navbar-profile-pic img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .nav-item {
+        margin-left: 10px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
+
+    .sidebar {
+        width: 60px;
+        /* Reduced width for smaller screens */
+    }
+
+    .sidebar-toggle {
+        width: 150px;
+        /* Adjusted width for toggle */
+    }
+
+    .container {
+        margin-left: 60px;
+        /* Adjusted margin for content section */
+    }
+
+    .side-nav .nav-link svg {
+        margin-right: 0;
+    }
+
+    .side-nav .nav-link {
+        font-size: 12px;
+    }
+}
+
+/* Further adjustment for very small screens */
+@media (max-width: 400px) {
+    .sidebar {
+        display: none;
+        /* Hide sidebar on very small screens */
+    }
+
+    .container {
+        margin-left: 0;
+        /* No margin when sidebar is hidden */
+    }
+}

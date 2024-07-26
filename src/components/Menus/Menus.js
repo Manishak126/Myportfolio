@@ -16,11 +16,15 @@ const Menus = ({toggle}) => {//by writing {toggle} we are sestructuring the prop
     },[])
   return (
     <>
+      {/* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq-0d8pO41hzk5SAahPPqLRKQcZK0Ozrb5pg&s */}
       {toggle ? (
         <>
           <Zoom>
             <div className="navbar-profile-pic">
-              <img src={ProfilePic} alt="Profile pic" />
+              <img
+                src="https://srcwap.com/wp-content/uploads/2022/08/blank-girl-profile-photo.jpg"
+                alt="Profile pic"
+              />
             </div>
           </Zoom>
           <div data-aos="fade-right">
