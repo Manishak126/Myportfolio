@@ -1,11 +1,11 @@
-import {BsFiletypeHtml, BsFiletypeCss} from 'react-icons/bs';
+import { BsFiletypeHtml, BsFiletypeCss } from "react-icons/bs";
 import { DiJavascript1, DiNodejs } from "react-icons/di";
 import { GrReactjs } from "react-icons/gr";
-import { SiMongodb, SiExpress } from "react-icons/si";
-import { FaJava } from "react-icons/fa";
+import { SiMongodb, SiExpress, SiC } from "react-icons/si";
+import { FaJava, FaCode } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaBootstrap } from "react-icons/fa6";
-
+import { GrMysql } from "react-icons/gr";
 
 export const TechstackList = [
   {
@@ -45,24 +45,27 @@ export const TechstackList = [
   },
   {
     _id: 8,
-    name: "JAVA",
+    name: "Java",
     icon: FaJava,
   },
   {
     _id: 9,
     name: "C++",
-    icon: FaJava,
+    icon: FaCode, // Using a generic code icon for C++
   },
   {
     _id: 10,
     name: "C",
-    icon: FaJava,
+    icon: SiC, // Correct icon for C
   },
   {
     _id: 11,
     name: "Bootstrap",
     icon: FaBootstrap,
   },
+  {
+    _id: 12,
+    name: "MySQL",
+    icon: GrMysql,
+  },
 ];
-
-

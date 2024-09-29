@@ -24,7 +24,7 @@ const Education = () => {
             <h4 className="vertical-timeline-element-subtitle">
               CMR Institute of Technology, Bangalore
             </h4>
-            <p>CGPA - 8.49</p>
+            <p>CGPA - 8.42</p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
@@ -37,7 +37,7 @@ const Education = () => {
             <h4 className="vertical-timeline-element-subtitle">
               DAV Public School, Jehanabad
             </h4>
-            <p>Percentage - 81%</p>
+            <p>Percentage - 81.5%</p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
@@ -50,7 +50,7 @@ const Education = () => {
             <h4 className="vertical-timeline-element-subtitle">
               DAV Public School, Jehanabad
             </h4>
-            <p>Percentage - 85.4%</p>
+            <p>Percentage - 84.66%</p>
           </VerticalTimelineElement>
 
         </VerticalTimeline>

@@ -55,33 +55,6 @@ const Projects = () => {
           <div className="col-md-4" data-aos="flip-left">
             <div className="card rounded">
               <div className="card-image">
-                <span className="card-notify-badge">Frontend</span>
-                <img src="https://media.shuru.co.in/input/1683637294081.jpg" />
-              </div>
-              <div className="card-image-overly m-auto">
-                <span className="card-detail-badge">React JS</span>
-                <span className="card-detail-badge">HTML/Bootstrap</span>
-                <span className="card-detail-badge">JS</span>
-                <span className="card-detail-badge"> NewsAPI</span>
-              </div>
-
-              <div className="card-body m-auto text-center">
-                <div className="ad-title">
-                  <h5 className="text-uppercase">News App</h5>
-                </div>
-                <a
-                  href="https://manishak126.github.io/newsapp/"
-                  className="ad-btn"
-                >
-                  View
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-4" data-aos="flip-left">
-            <div className="card rounded">
-              <div className="card-image">
                 <span className="card-notify-badge">Full Stack</span>
                 <img
                   src="https://play-lh.googleusercontent.com/7jGVW02tWTXs_YPoaOnUHnDvDZPzKCHD4PG8Dbxuux1Lhm99LkUT-bmnDPRsrKnmHXE"
@@ -99,7 +72,37 @@ const Projects = () => {
                 <div className="ad-title">
                   <h5 className="text-uppercase">iNoteBook</h5>
                 </div>
-                <a href="#" className="ad-btn">
+                <a
+                  href="https://github.com/Manishak126/inotebookBackend"
+                  className="ad-btn"
+                >
+                  View
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-4" data-aos="flip-left">
+            <div className="card rounded">
+              <div className="card-image">
+                <span className="card-notify-badge">Frontend</span>
+                <img src="https://media.shuru.co.in/input/1683637294081.jpg" />
+              </div>
+              <div className="card-image-overly m-auto">
+                <span className="card-detail-badge">React JS</span>
+                <span className="card-detail-badge">HTML/Bootstrap</span>
+                <span className="card-detail-badge">JS</span>
+                <span className="card-detail-badge"> NewsAPI</span>
+              </div>
+
+              <div className="card-body m-auto text-center">
+                <div className="ad-title">
+                  <h5 className="text-uppercase">News App</h5>
+                </div>
+                <a
+                  href="https://github.com/Manishak126/newsapp"
+                  className="ad-btn"
+                >
                   View
                 </a>
               </div>
